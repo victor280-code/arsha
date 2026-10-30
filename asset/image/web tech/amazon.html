@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 400px;
+            background-color: rgb(158, 176, 21);
+            padding: 20px;
+            position: relative;
+        }
+        /* .mini-container{
+            display: ;
+        } */
+
+        .stock{
+            color: rgba(1, 23, 21, 0.801);
+        }
+        .btn{
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            box-shadow: inset;
+            cursor: pointer;
+
+
+        }
+        .chart{
+            background-color: rgb(255,216,20);
+
+        }
+        .chart:hover{
+            background-color: yellowgreen;
+        }
+        .buy{
+            background-color: rgb(255,164,28);
+        }
+        .buy:hover{
+            background-color: brown;
+        }
+        .con-btn{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mini-container">
+            <a href="./buttons.html">Back to Amazon</a>
+            <h2>Nike Black Running Shoes</h2>
+            <p class="stock"><b>$39 - in stock</b></p>
+            <p>Free delivery tomorrow</p>
+            <div class="con-btn">
+                <button class="chart btn">Add to Chart</button>
+                <button class="buy btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
